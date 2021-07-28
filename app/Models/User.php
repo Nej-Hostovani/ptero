@@ -127,6 +127,7 @@ class User extends Model implements
         'language' => 'en',
         'use_totp' => false,
         'totp_secret' => null,
+        'theme' => 'pterodactyl',
     ];
 
     /**
